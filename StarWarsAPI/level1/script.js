@@ -1,7 +1,6 @@
 const helpMeButton = document.querySelector('#help-me-button')
-const displayWho = document.querySelector('.display-who')
+const displayWho = document.querySelector('.results')
 helpMeButton.addEventListener('click', getInformation)
-
 async function getInformation() {
   const baseUrl = 'https://swapi.dev/api/people/10/'
   const settings = {
@@ -15,5 +14,5 @@ async function getInformation() {
    for (let [x1, x2] of Object.entries(firstInfo)) {
      text += (x1 + " : " + x2 + '\n')
    }
-  displayWho.innerText = (text)
+   displayWho.innerText = (text)
 }
