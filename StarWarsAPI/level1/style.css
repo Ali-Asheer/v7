@@ -1,0 +1,27 @@
+
+
+body {
+    background: #1c073e;
+    color: rgb(221, 204, 13);
+    text-align:center
+  
+}
+button{
+    background-color: rgb(59, 111, 138);
+    border-radius: 5px;
+    border: 0;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(229, 230, 169);
+   }
+p{ 
+    border-top-style: solid;
+    border-top-color: rgb(0, 179, 255);
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(255, 225, 0);
+    text-align: left;
+    text-transform: uppercase;
+} 
